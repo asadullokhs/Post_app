@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  align-items: center;
+  .input-group {
+    position: relative;
+    input {
+      height: 40px;
+      width: 50%;
+      outline: none;
+      border: 1px solid rgba($color: #000000, $alpha: 0.1);
+      border-radius: 40px !important;
+      padding-left: 50px;
+    }
+    i {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      left: 20px;
+      color: rgba($color: #000000, $alpha: 0.3);
+    }
+  }
+  a.btn {
+    height: 40px;
+    width: 50%;
+    background: linear-gradient(to right, dodgerblue, rgb(120, 120, 194));
+    margin-right: 20px;
+    color: white !important;
+    border-radius: 40px !important;
+    i {
+    }
+    span {
+    }
+  }
+  ul {
+    li {
+      a {
+        i {
+        }
+      }
+    }
+  }
+}
